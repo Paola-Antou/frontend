@@ -1,0 +1,84 @@
+/* nodeArticle.module.css */
+
+/* Container principal de l'article */
+.articleContainer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Titre de l'article */
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Métadonnées de l'article */
+  .meta {
+    text-align: center;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
+  .author {
+    font-weight: 600;
+  }
+  
+  .date {
+    font-style: italic;
+  }
+  
+  /* Figure et image */
+  .figure {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .articleImage {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .articleImage:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Légende de l'image */
+  .figcaption {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+  }
+  
+  /* Contenu de l'article */
+  .content {
+    font-family: 'Merriweather', serif;
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: #34495e;
+    margin-top: 20px;
+  }
+  
+  /* Prose styles for better content appearance */
+  .content p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .content a {
+    color: #3498db;
+    text-decoration: underline;
+  }
+  
+  .content a:hover {
+    color: #2980b9;
+  }
+  
